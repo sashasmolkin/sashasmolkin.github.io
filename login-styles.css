@@ -94,13 +94,13 @@ font-family: superior-title, serif;
     background-color: #3b78d3;
 }
 
-button .se {
+.se {
     border: none;
     padding: 10px 20px;
     border-radius: 70px;
     font-size: 20px;
     transition: 0.3s ease 0s;
-    margin: 0px 5px;
+    margin: 0px 1vw;
 }
 
 .se i {
