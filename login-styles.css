@@ -9,8 +9,6 @@ font-family: superior-title, serif;
     box-sizing: border-box;
 }
 
-
-
 .cta-p {
     display: flex;
     flex-direction: column;
@@ -39,7 +37,7 @@ font-family: superior-title, serif;
 }
 
 .login {
-    background-color: white;
+    background-color: black;
     padding: 50px;
     border-radius: 20px;
     border-color: #9fa8b6;
