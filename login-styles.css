@@ -144,13 +144,8 @@ h3 {
     cursor: pointer;
 }
 
-a {
+.cta-p a {
     background-color: #253041;
-    text-decoration: none;
-}
-
-a i {
-    background-color: transparent;
     text-decoration: none;
 }
 
