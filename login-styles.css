@@ -144,8 +144,8 @@ h3 {
     cursor: pointer;
 }
 
-button a {
-    background-color: transparent;
+a {
+    background-color: #253041;
     text-decoration: none;
 }
 
