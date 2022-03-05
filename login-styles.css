@@ -7,6 +7,11 @@ font-family: superior-title, serif;
 
 * {
     box-sizing: border-box;
+    background-color: #e2e6ec;
+}
+
+a {
+    background-color: transparent;
 }
 
 .cta-p {
@@ -37,7 +42,7 @@ font-family: superior-title, serif;
 }
 
 .login {
-    background-color: black;
+    background-color: white;
     padding: 50px;
     border-radius: 20px;
     border-color: #9fa8b6;
