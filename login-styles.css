@@ -144,16 +144,15 @@ h3 {
     cursor: pointer;
 }
 
-a {
-    background-color: transparent;
-    text-decoration: none;
-}
-
 button a {
     background-color: transparent;
     text-decoration: none;
 }
 
+a i {
+    background-color: transparent;
+    text-decoration: none;
+}
 
 @keyframes check {
     from   {font-size: 150px;}
