@@ -7,8 +7,9 @@ font-family: superior-title, serif;
 
 * {
     box-sizing: border-box;
-    background-color: #e2e6ec;
 }
+
+
 
 .cta-p {
     display: flex;
@@ -144,9 +145,6 @@ h3 {
     cursor: pointer;
 }
 
-a {
-    background-color: transparent;
-}
 
 @keyframes check {
     from   {font-size: 150px;}
