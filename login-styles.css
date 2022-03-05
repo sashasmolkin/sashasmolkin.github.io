@@ -144,9 +144,8 @@ h3 {
     cursor: pointer;
 }
 
-.cta-p a {
+a {
     background-color: transparent;
-    text-decoration: none;
 }
 
 @keyframes check {
