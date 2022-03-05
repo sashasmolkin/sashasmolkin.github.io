@@ -148,6 +148,10 @@ a {
     background-color: transparent;
 }
 
+i {
+    background-color: transparent;
+}
+
 @keyframes check {
     from   {font-size: 150px;}
     to {font-size: 200px;}
