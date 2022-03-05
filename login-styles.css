@@ -17,7 +17,8 @@ font-family: superior-title, serif;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
-    margin: 54px auto 20px auto;   
+    margin: 54px auto 20px auto; 
+    width: 90%;
 }
 
 .cta-c {
@@ -26,13 +27,13 @@ font-family: superior-title, serif;
     align-items: center;
     text-align: center;
     margin-bottom: 20px;
+    transition: 1s ease 0s; 
 }
 
 .cta-c h1 {
     font-family: sculpin, sans-serif;
     font-weight: 100;
-    font-size: 50px;
-    line-height: 40%;
+    font-size: 40px;
     color: #478FFC;
 }
 
@@ -141,4 +142,17 @@ h3 {
 .regi:hover {
     background-color: #478ffc2c;
     cursor: pointer;
+}
+
+a {
+    background-color: transparent;
+}
+
+@keyframes check {
+    from   {font-size: 150px;}
+    to {font-size: 200px;}
+}
+
+@media screen {
+    
 }
