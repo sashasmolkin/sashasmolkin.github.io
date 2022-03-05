@@ -149,6 +149,12 @@ a {
     text-decoration: none;
 }
 
+button a {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
 @keyframes check {
     from   {font-size: 150px;}
     to {font-size: 200px;}
