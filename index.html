@@ -3,31 +3,66 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Login Site</title>
+        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="login-styles.css">
-
-    </head>
-    <body>
-        <div class="cta-p">
-            <div class="cta-c">
-                <h1>Welcome back!</h1>       
-            </div>
-            <div class="login">
-                <h2>Sign in to get started.</h2>
-                <input class="log" placeholder="Email Address">
-                <input class="log" placeholder="Password">
-                <a href="signin.html"><button class="signin">Sign In</button></a>
-                <h2 class="external">or sign in with</h2>
-                <a href="signin.html"><button class="se"><i class="fa-brands fa-google"></i></button></a>
-                <a href="signin.html"><button class="se"><i class="fa-brands fa-apple"></i></button></a>
-                <a href="signin.html"><button class="se"><i class="fa-brands fa-twitter"></i></button></a>
-            </div>
-            <h3>Need an account?</h3>
-            <a href="register.html"><button class="regi">Register</button></a>
-        </div>
-        
+        <link rel="stylesheet" href="styles.css">
         <script src="https://kit.fontawesome.com/b642e6ac4a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>        
+        <div class="left">
+            <div class="left-c">
+                <div>
+                <h1>Sign In</h1>
+                <h2>Access your care information, order prescriptions, and book appointments.</h2>
+                </div>
+                <div id="card1" class="login">
+                    <input class="text" type="text" placeholder="Email Address">
+                    <input class="text" type="text" placeholder="Password">
+                    <div class="login-stuff">
+                        <div><input type="checkbox"> Remember Me</div>
+                        <a href="#">Forgot Password?</a>
+                    </div>
+                    <button id="signin">Sign In</button>
+                    <h2><span>Or Sign In With</span></h2>
+                    <div class="socials">
+                    <button id="signin" class="social"><i class="fa-brands fa-google"></i></button>
+                    <button id="signin" class="social"><i class="fa-brands fa-twitter"></i></button>
+                    <button id="signin" class="social"><i class="fa-brands fa-apple"></i></button>
+                    <button id="signin" class="social"><i class="fa-brands fa-facebook"></i></button>
+                    </div>
+                </div>
+
+                <div id="card2" class="login">
+                    <i class="fa-regular fa-circle-check" style="font-size: 100px; color: #2962F4; margin-bottom: 40px;"></i>
+                    <h1 style="font-weight:500; margin-bottom: 20px;">All set!</h1>
+                    <h3 style="font-weight:300; margin-top: 0px;">Sign in successful.</h3>
+                    <a href="#" id="signout" style="text-decoration: none; color: #2962F4; font-size: 14px; margin-top: 20px;">Sign Out</a>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="right">
+
+        </div>
+
+        <script>
+
+            const signin = document.getElementById('signin'); 
+            const signout = document.getElementById('signout');
+
+                signin.addEventListener('click', () => {
+                    card1.classList.toggle('show');
+                    card2.classList.toggle('show');
+            });
+
+                signout.addEventListener('click', () => {
+                    card1.classList.toggle('show');
+                    card2.classList.toggle('show');
+            });
+
+        </script>
+
     </body>
 </html>
