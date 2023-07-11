@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>successibility.dev Home</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+            
+            .body {
+                float: left;
+                margin-left: 10%;
+            }
+
+            .toc {
+                position: fixed;
+                left: 72%;
+                overflow:visible;
+            }
+
+            .toc ul {
+                list-style: none;
+            }
+
+            .toc ul li {
+                margin-left: -40px;
+                line-height: 220%;
+            }
+
+            .toc ul li a {
+                color: black;
+                text-decoration: none;
+            }
+
+            .toc ul li a:hover {
+                text-decoration: underline;
+            }
+
+
+            h4 {
+                font-size: 24px;
+                display: flex;
+                align-items: center;
+            }
+
+            .cat3 h4{
+                font-size: 20px;
+            }
+
+            .text p{
+                margin-bottom:16px;
+            }
+
+            .breadcrumb li {
+                font-size: 20px !important;
+            }
+
+            .bottomnav {
+                padding: 16px 32px;
+                background-color: #E4E4E4;
+                border-radius: 16px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 32px 0px 72px 0px;
+            }
+
+            .bottomnav a {
+                color: black;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            .bottomnav a:hover {
+                text-decoration: underline;
+            }
+
+            blockquote {
+                background-color: #ededed;
+                padding: 16px 32px 16px;
+                border: solid rgb(160, 160, 160) 1px;
+                border-radius: 8px;
+                border-left: solid rgb(233, 188, 220) 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html"><span style="color: blue;">successibility</span>.dev</a></h1>
+            <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </header>
+        
+        <ul class="breadcrumb" style="margin-left: 10%; margin-top: 16px;">
+            <li><a href="index.html">successibility.dev</a></li>
+            <li><a href="perception.html">Perception</a></li>
+            <li><a href="#">Color</a></li>
+        </ul>
+
+        <div class="body">
+            
+            <div class="content">
+            <h4 style="margin-bottom: 24px;">Color Overview</h4>
+            <p>In order for a website to be accessible to all people regardless of ability, you must follow these color guidelines.</p>
+            <br>
+                <h4 id="cu">Color Usage <span class="level" style="background-color: rgb(208, 230, 191)" >Level A</span></h4>
+                <div class="cat3" aria-label="A graphic showing the different colors of the color spectrum.">
+                    <img src="colors.svg" width="300px">
+                </div>
+            <p style="font-style: italic; font-size: 18px; margin-bottom: 16px;"></p>
+            <div class="text">
+            <p>Do not use color as the only method of distinguishing content or webpage elements.</p>
+            <p>When displaying links, don't only use  color to distinguish links from surrounding text. This can be ignored if the <a href="https://webaim.org/resources/contrastchecker/">contrast ratio</a> between the link's color and surrounding text is at least 3:1 and an additional distinction &lpar;bold or underlined, for example&rpar; is used when hovering over the link.</p>
+         
+            </div>
+
+            <br>
+                <h4 id="tc">Text Contrast<span class="level" style="background-color: rgb(188, 226, 233)" >Level AA</span></h4>
+                <div class="cat3" aria-hidden="true">
+                    <img src="contrast.svg">
+                </div>
+                <p style="font-style: italic; font-size: 18px; margin-bottom: 16px;">An example of contrast and contrast ratio.</p>
+                <div class="text">
+            <p>Text or images of text must have a contrast ratio to their background of <b>at least 4.51:1</b>. For text larger than 18pt or 14pt and bold, <b>the contrast ratio must be 3:1</b>.</p>
+            <blockquote><h5 style="font-size:20px;">Enhanced Contrast<span class="level" style="background-color: rgb(233, 188, 220);">Level AAA</span></h4><p style="margin-bottom: 0px;">Text or images of text must have a contrast ratio of 7:1 or higher. For text larger than 18pt or 14pt and bold, the contrast ratio must be at least 4.5:1. </p></blockquote>
+            </div>
+
+            <br>
+                <h4 id="ec">Element Contrast<span class="level" style="background-color: rgb(188, 226, 233)" >Level AA</span></h4>
+                <div class="cat3" aria-hidden="true">
+                    <img src="elementcontrast.svg">
+                </div>
+                <p style="font-style: italic; font-size: 18px; margin-bottom: 16px;">A representation of contrast for a button.</p>
+                <div class="text">
+            <p>Contrast between HTML objects or elements &lpar;such as icons, buttons, elements of graphs or charts&rpar; should be <b>3:1 or higher</b>.</p>
+            <p>For interactive graphic elements such as buttons, there must be a 3:1 contrast ration between their states &lpar;hover, focus, active, etc.&rpar;</p>
+           
+            </div>
+
+            <div class="bottomnav">
+                <a href="layout.html"><i class="fa-solid fa-arrow-left-long"></i> Back</a>
+                <a href="#">Top</a>
+                
+                <a href="text.html">Next <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+
+        </div>
+        </div>
+
+      
+
+      
+
+  <div class="toc">
+            <h4 style="margin-bottom: 16px;">Table of Contents</h4>
+            <ul class="toclinks">
+                <li><a href=#>Overview</a></li>
+                <li><a href="#cu">Color Usage</a></li>
+                <li><a href="#tc">Text Contrast</a></li>
+                <li><a href="#ec">Element Contrast</a></li>
+            </ul>
+</div>
+
+
+
+
+        <script src="https://kit.fontawesome.com/b642e6ac4a.js" crossorigin="anonymous"></script>
+    </body>
+</html>

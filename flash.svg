@@ -1,0 +1,26 @@
+<svg width="256" height="256" viewBox="0 0 256 256" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="128" cy="128" r="15" fill="black"/>
+<path d="M128 88V38" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(90 128 128)" fill="black"/>
+<path d="M168 128L218 128" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(-180 128 128)" fill="black"/>
+<path d="M128 168L128 218" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(-90 128 128)" fill="black"/>
+<path d="M88 128L38 128" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(45 128 128)" fill="black"/>
+<path d="M156.284 99.7157L191.64 64.3604" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(135 128 128)" fill="black"/>
+<path d="M156.284 156.284L191.64 191.64" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(-135 128 128)" fill="black"/>
+<path d="M99.7158 156.284L64.3605 191.639" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(-45 128 128)" fill="black"/>
+<path d="M99.7157 99.7154L64.3604 64.3601" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(45 128 128)" fill="black"/>
+<path d="M156.284 99.7157L191.64 64.3604" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(135 128 128)" fill="black"/>
+<path d="M156.284 156.284L191.64 191.64" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(-135 128 128)" fill="black"/>
+<path d="M99.7158 156.284L64.3605 191.639" stroke="black" stroke-width="8"/>
+<circle cx="128" cy="128" r="15" transform="rotate(-45 128 128)" fill="black"/>
+<path d="M99.7157 99.7154L64.3604 64.3601" stroke="black" stroke-width="8"/>
+</svg>

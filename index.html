@@ -3,67 +3,44 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles.css">
-        <script src="https://kit.fontawesome.com/b642e6ac4a.js" crossorigin="anonymous"></script>
+        <title>successibility.dev Home</title>
+        <link rel="stylesheet" href="stylesheet.css">
     </head>
     <body>
-        <div class="topbar"></div>
-        <div class="left">
-            <div class="left-c">
-                <div>
-                <h1>Sign In</h1>
-                <h2>Access your care information, order prescriptions, and book appointments.</h2>
-                </div>
-                <div id="card1" class="login">
-                    <input class="text" type="text" placeholder="Email Address">
-                    <input class="text" type="text" placeholder="Password">
-                    <div class="login-stuff">
-                        <div><input type="checkbox"> Remember Me</div>
-                        <a href="#">Forgot Password?</a>
-                    </div>
-                    <button id="signin">Sign In</button>
-                    <h2><span>Or Sign In With</span></h2>
-                    <div class="socials">
-                    <button id="signin" class="social"><i class="fa-brands fa-google"></i></button>
-                    <button id="signin" class="social"><i class="fa-brands fa-twitter"></i></button>
-                    <button id="signin" class="social"><i class="fa-brands fa-apple"></i></button>
-                    <button id="signin" class="social"><i class="fa-brands fa-facebook"></i></button>
-                    </div>
-                </div>
-
-                <div id="card2" class="login">
-                    <i class="fa-regular fa-circle-check" style="font-size: 100px; color: #2962F4; margin-bottom: 40px;"></i>
-                    <h1 style="font-weight:500; margin-bottom: 20px;">All set!</h1>
-                    <h3 style="font-weight:300; margin-top: 0px;">Sign in successful.</h3>
-                    <a href="#" id="signout" style="text-decoration: none; color: #2962F4; font-size: 14px; margin-top: 20px;">Sign Out</a>
-                </div>
-
+        <header>
+            <h1><a href="index.html"><span style="color: blue;">successibility</span>.dev</a></h1>
+            <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </header>
+        <div class="body">
+            <h2>Quick-browse WCAG standards for web designers and developers.</h2>
+            <h3 style="margin-top: 72px;">Main Categories</h3>
+            <div class="catparent">
+                <a href="perception.html" style="text-decoration: none;"><div class="cat">
+                    <div>Perception<i class="fa-solid fa-eye"></i></div>
+                    <p>Media content, UI elements, layout and color.</p>
+                </div></a>
+                <a href="interaction.html" style="text-decoration: none;"><div class="cat">
+                    <div>Interaction<i class="fa-solid fa-hand-pointer"></i></div>
+                    <p>User input, navigation, and interactive components.</p>
+                </div></a>
+                <a href="comprehension.html" style="text-decoration: none;"><div class="cat">
+                    <div>Comprehension<i class="fa-solid fa-lightbulb"></i></div>
+                    <p>Readability, language, assistive technologies.</p>
+                </div></a>
             </div>
+
+            <h3 style="margin-top: 72px;">Web accessibility is important.</h3>
+            <p>This website provides at-a-glance accessibility guidelines so you can stay in your flow. No more scrolling through wordy PDFs or outdated websites. We have categorized and simplified WCAG 2.0 so it is quick to browse and easy to understand. </p>
+
+            <h3 style="margin-top: 72px;">Information & References</h3>
+        <p>Please note that the content of this website is a condensed version of the WCAG 2.0 standards, and some specific information may be missing because it's not significantly relevant to the webdev workflow.</p>
+        <p style="margin: 24px 0px 72px;">The standards discussed were taken from WebAIM's <a href="https://webaim.org/standards/wcag/checklist">WCAG checklist</a> and W3's <a href="https://webaim.org/standards/wcag/checklist">WCAG 2.1 reference.</a></p>
         </div>
 
-        <div class="right">
+        
 
-        </div>
 
-        <script>
 
-            const signin = document.getElementById('signin'); 
-            const signout = document.getElementById('signout');
-
-                signin.addEventListener('click', () => {
-                    card1.classList.toggle('show');
-                    card2.classList.toggle('show');
-            });
-
-                signout.addEventListener('click', () => {
-                    card1.classList.toggle('show');
-                    card2.classList.toggle('show');
-            });
-
-        </script>
-
+        <script src="https://kit.fontawesome.com/b642e6ac4a.js" crossorigin="anonymous"></script>
     </body>
 </html>

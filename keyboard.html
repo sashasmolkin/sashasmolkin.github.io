@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>successibility.dev Home</title>
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+            
+            .body {
+                float: left;
+                margin-left: 10%;
+            }
+
+            .toc {
+                position: fixed;
+                left: 72%;
+                overflow:visible;
+            }
+
+            .toc ul {
+                list-style: none;
+            }
+
+            .toc ul li {
+                margin-left: -40px;
+                line-height: 220%;
+            }
+
+            .toc ul li a {
+                color: black;
+                text-decoration: none;
+            }
+
+            .toc ul li a:hover {
+                text-decoration: underline;
+            }
+
+
+            h4 {
+                font-size: 24px;
+                display: flex;
+                align-items: center;
+            }
+
+            .cat3 h4{
+                font-size: 20px;
+            }
+
+            .text p{
+                margin-bottom:16px;
+            }
+
+            .breadcrumb li {
+                font-size: 20px !important;
+            }
+
+            .bottomnav {
+                padding: 16px 32px;
+                background-color: #E4E4E4;
+                border-radius: 16px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 32px 0px 72px 0px;
+            }
+
+            .bottomnav a {
+                color: black;
+                text-decoration: none;
+                font-weight: 600;
+            }
+
+            .bottomnav a:hover {
+                text-decoration: underline;
+            }
+
+            blockquote {
+                background-color: #ededed;
+                padding: 16px 32px 16px;
+                border: solid rgb(160, 160, 160) 1px;
+                border-radius: 8px;
+                border-left: solid rgb(233, 188, 220) 10px;
+            }
+
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html"><span style="color: blue;">successibility</span>.dev</a></h1>
+            <button class="search"><i class="fa-solid fa-magnifying-glass"></i></button>
+        </header>
+        
+        <ul class="breadcrumb" style="margin-left: 10%; margin-top: 16px;">
+            <li><a href="index.html">successibility.dev</a></li>
+            <li><a href="interaction.html">Interaction</a></li>
+            <li><a href="#">Keyboard</a></li>
+        </ul>
+
+        <div class="body">
+            
+            <div class="content">
+            <h4 style="margin-bottom: 24px;">Keyboard Overview</h4>
+            <p>An accessible website can be navigated purely by a keyboard. The following guidelines will explain what needs to be done to ensure this.</p>
+            <br>
+                <h4 id="1">Keyboard Functionality <span class="level" style="background-color: rgb(208, 230, 191)" >Level A</span></h4>
+            <div class="text">
+            <p>Every part of a page's functionaility is accessible using the keyboard. An exception to this is functionality that can't be accomplished with a keyboard &lpar;e.g. drawing&rpar;</p>
+            <p>Shortcut keys that are unique to your page or website should not interfere with existing browser and screen reader shortcuts.</p>
+            <blockquote><h5 style="font-size:20px;">Enhanced Keyboard Functionality<span class="level" style="background-color: rgb(233, 188, 220);">Level AAA</span></h4><p style="margin-bottom: 0px;">Every part of your page is available and functional using a keyboard.</p></blockquote>
+         
+            </div>
+
+            <br>
+                <h4 id="2">Keyboard Focus<span class="level" style="background-color: rgb(208, 230, 191)" >Level A</span></h4>
+            
+                <div class="text">
+            <p>Keyboard focus should never become trapped or locked to a single page element. To test this, press tab on your keyboard while on the page. If the keyboard focus does not return to the first interactive element of the page, the test has failed.</p>
+           
+            </div>
+
+            <br>
+                <h4 id="3">Page-Defined Shortcuts<span class="level" style="background-color: rgb(208, 230, 191)" >Level A</span></h4>
+                
+                <div class="text">
+            <p>If you have designed a keyboard shortcut for a function that uses common characters &lpar;such as "P", "Q", ".", "[" and so on&rpar; then:</p>
+            <ul>
+                <li>Include the functionality to disable the shortcut</li>
+                <li>Allow the user to change the shortcut to a non-printable key like Ctrl or Alt</li>
+                <li>Only activate the shortcut when it's associated element or button is focused</li>
+            </ul>
+           
+            </div>
+
+            <div class="bottomnav">
+                <a href="interaction.html"><i class="fa-solid fa-arrow-left-long"></i> Interaction</a>
+                <a href="#">Top</a>
+                
+                <a href="contentnav.html">Next <i class="fa-solid fa-arrow-right-long"></i></a>
+            </div>
+
+        </div>
+        </div>
+
+      
+
+      
+
+  <div class="toc">
+            <h4 style="margin-bottom: 16px;">Table of Contents</h4>
+            <ul class="toclinks">
+                <li><a href=#>Overview</a></li>
+                <li><a href="#1">Keyboard Functionality</a></li>
+                <li><a href="#2">Keyboard Focus</a></li>
+                <li><a href="#3">Page-Defined Shortcuts</a></li>
+            </ul>
+</div>
+
+
+
+
+        <script src="https://kit.fontawesome.com/b642e6ac4a.js" crossorigin="anonymous"></script>
+    </body>
+</html>
